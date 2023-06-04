@@ -1,0 +1,32 @@
+body {
+  background: black;
+}
+
+
+.banner-text {
+  color: white;
+  font-size: 160px;
+  font-weight: bold;
+}
+
+.accordion-rounded{
+  border-radius: 50%;
+}
+
+
+
+@media (max-width:540px) {
+  .banner-text {
+    font-size: 60px;
+  }
+  
+  .selection-box {
+    position: relative;
+  }
+
+  .selection-btns {
+    position: absolute;
+    top: 53px;
+    right:115.5px; //=(516-447)/2
+  }
+}
